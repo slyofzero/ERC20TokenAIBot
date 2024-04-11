@@ -134,7 +134,7 @@ export async function sendAlert(token: string, storedTxn: StoredTransaction) {
       return false;
     }
 
-    message = `*Snipe Alert*
+    message = `*Token Alert*
 
 ${hardCleanUpBotMessage(name)} \\| ${hardCleanUpBotMessage(symbol)}
 
